@@ -20,5 +20,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: run
-      run:python3 temp.py
-      
+        run: python3 temp.py

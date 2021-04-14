@@ -51,3 +51,7 @@ if __name__ == "__main__":
     tmp=get_rand_temp()
     result, msg = nus_htd.declare(tmp)
     print(msg)
+    nus_htd=NUSHTD("nusstu\E0678832","Xm_1205@lion")
+    tmp=get_rand_temp()
+    result,msg=nus_htd.declare(tmp)
+    print(msg)
